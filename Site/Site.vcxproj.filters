@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="index.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{b34327c7-4d64-4ae3-8e8b-929dcdba434a}</UniqueIdentifier>
+      <Extensions>*.js</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{727f030e-5dc0-4939-b999-2bad7058be86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c037fc7b-601f-4385-80a9-3345802835b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-2.0.3.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-2.0.3.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-ui-1.10.3.custom.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\jquery-ui-1.10.3.custom.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\rs-listview.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Content\rs-listview.css">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Data\DocListLite.index">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Data\DocListLite.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Data\DocListLite.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Data\DocList.index">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Data\DocList.json">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Data\DocList.txt">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>

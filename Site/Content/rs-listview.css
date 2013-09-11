@@ -1,0 +1,27 @@
+html 
+{
+    overflow-y: scroll;
+    height : 17471628px;
+    max-height : 17471628px;
+}
+.listview-container
+{
+    font-family: Fixed, monospace;
+    font-size : 16px;
+    width:100%;
+}
+
+.listview-item
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    border-top: thin solid white;
+    border-left: thin solid white;
+    border-right: thin solid white;
+    border-bottom: thin solid lightgray;
+}
+
+.focus{
+    border: thin solid IndianRed;
+}

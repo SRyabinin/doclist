@@ -1,0 +1,5 @@
+LIBRARY      "DocumentsProvider"
+EXPORTS
+	HttpExtensionProc	@1
+	GetExtensionVersion	@2
+	BuildIndex			@3
